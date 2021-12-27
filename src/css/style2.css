@@ -1,0 +1,167 @@
+
+body header nav{
+    width: 100%;
+    top: 70px;
+    padding-bottom: 20px;
+    position: static;
+    background-color: transparent;
+    display: block ;
+    
+    
+}
+main{
+   
+    top:250px;
+    left: 10px;
+    width: 80%;
+  
+}
+#pageContent{
+    background-color: rgba(235, 251, 219, 0.84);
+}
+#mainHeader h1{
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    align-items: flex-start;
+    
+
+}
+main div {
+   margin: 40px;
+}
+#mainNav ul{
+    list-style: none;
+    padding: 10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin: 10px;
+}
+#mainNav ul li{
+    padding: 20px;
+    border-left: 5px solid white;
+    
+}
+figure {
+
+    margin: 8px;
+    padding: 0px;
+
+}
+body aside { 
+    position: fixed;
+    top:300px;
+    right: 10px;
+    width: 15%;
+    height: min-content;
+    background-color: rgba(87, 243, 248);
+    border : 5px solid black;
+    
+}
+#nasa{
+    width:1000px ;
+}
+aside img {
+    width: 160px;
+    
+    border: 2px solid blue;
+}
+aside > p {
+    margin: .5rem;
+}
+
+#logo{
+    width: 175px;
+    padding:7px;
+    background-color: red;
+    border: 5px solid black ;
+
+}
+#palette td{
+    /*size: 75%;
+    */
+    font-size: 1em;
+}
+#mainFooter {
+    background-color: red;
+    width: 100%;
+    color: white;
+      height: 140px;
+}
+#mainHeader{
+    width: 100%;
+    background-color: red;
+    height:65px; 
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 230px 300px 1fr 1fr ;
+}
+main{
+    background-color: white;
+    margin: 20px;
+    padding: 5px;
+}
+#pageContent {
+    padding: 100px 20px;
+    min-height: 100vh;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Cantarell,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    display: block;
+}
+nav a:hover{
+    color: navy;
+}
+nav a:active{
+    color: yellow;
+}
+#ExoNav ul {
+    
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+#ExoNav {
+    background-color: red;
+    border-bottom-left-radius: 40%;
+    
+}
+
+
+form {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  fieldset {
+    background: cyan;
+    border: 5px solid blue;
+  }
+  
+  legend {
+    padding: 10px;
+    background: blue;
+    color: cyan;
+  }
+  
+  
+  input:checked
+  {
+    display: inline-block;
+  }
